@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/tasks'; // Replace with your backend URL
+const API_URL = 'mongodb+srv://mernuser:fitness@cluster0.xpyx4ft.mongodb.net/'; // Replace with your backend URL
 
 export const fetchTasks = async () => {
   try {
